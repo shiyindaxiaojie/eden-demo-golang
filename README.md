@@ -9,10 +9,15 @@
 ## 工程结构
 
 ```
-├── /api	                // 接口描述文件，例如：OpenAPI、Swagger 
-├── /build                  // 持续集成
-├── /cmd                    // 执行文件
-├── /configs                // 配置文件
-├── /docs                   // 说明文档
-├── /deployments            // 云原生部署描述文件
+├── /api	                // 接口描述
+├── /build            		// 持续集成
+├── /cmd            		// 执行文件
+├── /configs     	        // 配置文件
+├── /docs            		// 说明文档
+├── /pkg            		// 公共类库
+├── /scripts            	// 执行脚本
+├── /test            		// 测试代码
+├── /tools            		// 工具组件
+├── /vendor            		// 依赖缓存
+├── /web            		// SPA页面
 ```
